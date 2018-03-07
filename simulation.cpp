@@ -1,7 +1,6 @@
-//start Windows
-#include "stdafx.h"
+#ifdef _WIN32
 #define _USE_MATH_DEFINES
-//end Windows
+#endif
 
 #include <GL/glut.h>
 #include <string.h>
